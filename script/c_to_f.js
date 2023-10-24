@@ -7,12 +7,24 @@ function convertCtoF(currentTemp) {
 
 let currentTemp = 100;
 let fahrenheitTemp = convertCtoF(currentTemp);
-
-
 console.log(currentTemp + " degrees celsius in Fahrenheit is equal to " + fahrenheitTemp);
 
-// let currentTemp = 45
-// let currentTemp = 19
-// let currentTemp = 0 
-// let currentTemp = -7 
-// let currentTemp = -40
+currentTemp = 45;
+fahrenheitTemp = convertCtoF(currentTemp);
+console.log(currentTemp + " degrees celsius in Fahrenheit is equal to " + fahrenheitTemp);
+
+currentTemp = 19;
+fahrenheitTemp = convertCtoF(currentTemp);
+console.log(currentTemp + " degrees celsius in Fahrenheit is equal to " + fahrenheitTemp);
+
+currentTemp = 0 
+fahrenheitTemp = convertCtoF(currentTemp);
+console.log(currentTemp + " degrees celsius in Fahrenheit is equal to " + fahrenheitTemp);
+
+currentTemp = -7 
+fahrenheitTemp = convertCtoF(currentTemp);
+console.log(currentTemp + " degrees celsius in Fahrenheit is equal to " + fahrenheitTemp);
+
+currentTemp = -40
+fahrenheitTemp = convertCtoF(currentTemp);
+console.log(currentTemp + " degrees celsius in Fahrenheit is equal to " + fahrenheitTemp);
