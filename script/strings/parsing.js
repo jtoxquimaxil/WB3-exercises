@@ -1,12 +1,24 @@
 "use strict";
 
-let Name = "Brenda Kaye";
-let pos = Name.indexOf("Brenda Kaye"); 
+//Brenda Kaye Ian Auston Siddalee Grace 
 
-let first = Name.substring(0, 6);
-let last = Name.substring(7);
+function parseAndDisplayName(fullName) {
+    console.log(fullName);
+}
 
-console.log(pos);
-console.log(first);
-console.log(last);
+parseAndDisplayName("Brenda Kaye");
+parseAndDisplayName("Ian Auston");
+parseAndDisplayName("Siddalee Grace");
 
+
+// parseAndDisplayName = ("Brenda Kaye");
+// let positionOfSpace = Name.indexOf(" ");
+
+// let first = Name.substring(0, positionOfSpace);
+// let last = Name.substring(positionOfSpace + 1);
+
+// let fullName = first + last;
+
+
+// console.log(`First Name: ${first}`);
+// console.log(`Last Name: ${last}`);
